@@ -1,0 +1,619 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #333;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #F9B234;
+  font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+  height: 450px;
+  background-color: #171717;
+  color: white;
+}
+
+.carousel h1 {
+  font-family: 'Lora';
+}
+
+.carousel p {
+  font-weight: 200;
+}
+
+
+.features h3, .designer h3, .similar-product h3, .cart-header h3, .checkout-modal-success h3 {
+  font-family: 'Lora';
+  color: #1B2690;
+  font-weight: bold;
+}
+
+.features p, .designer p, footer p, .similar-product p, .cart-header p, .checkout-modal-success p {
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.figure h5 {
+  color: #171717;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.cart-breadcrumb {
+  margin-top: 50px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.designed-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #B7B7B7;
+  margin-bottom: 20px;
+}
+
+.designed-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.designed-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+.designed-by p span {
+  color: #B7B7B7;
+}
+
+
+/* Product Description */
+.product-description {
+  background-color: #F6F7FB;
+  height: 350px;
+}
+
+.product-description .tab-content {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+}
+
+.product-review {
+  height: 330px;
+  overflow: scroll;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+
+.similar-product {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+
+.checkout-detail {
+  background-color: #F6F7FB;
+  border: 1px solid #EAEAEA;
+  color: #171717;
+}
+
+
+
+
+.footer{
+  clear: both;
+  border-top: 1px solid rgb(229, 231, 233);
+}
+
+.footer .container{
+  /* width: 100%; */
+  /* padding-right: 10px;
+  padding-left: 10px; */
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.footer .footer-app{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer .footer-app .menu-footer{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+
+.footer .footer-app .menu-footer .menu-item a{
+  font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.68);
+    text-decoration: none;
+    transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    cursor: pointer;
+}
+
+
+.footer .footer-app .menu-footer .menu-item a:hover{
+  color: rgb(0, 212, 80) !important;
+}
+
+/* ------- Akhir menu Item */
+
+.footer .menu-app{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer .menu-app .app_title{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: rgba(49, 53, 59, 0.96);
+  padding-left: 4px;
+}
+
+
+.footer .menu-app .app_image{  
+  text-align: left;
+}
+
+.footer .menu-app .app_image a{  
+  margin-right: 10px;
+}
+/* 
+.social-media {
+  margin-top: 5rem;
+}
+
+.social-media i {
+  font-size: 5rem;
+  transition: color 650ms;
+} */
+
+
+
+.footer .footer-social-media{
+  padding-top: 26px;
+  padding-bottom: 26px;
+  border-top: 1px solid rgb(229, 231, 233);
+}
+
+.footer .footer-social-media .container{
+  
+  position: relative;
+}
+
+.footer .footer-social-media .container .footer-social{ 
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.footer .footer-social-media .container .footer-social .social-item{
+  /* color: aqua; */
+  display: inline-flex;
+  padding-right: 1.5rem;
+  /* flex-direction: row; */
+  
+}
+/* 
+.footer .footer-social-media .container .footer-social:first-of-type{
+  margin-left: 0;
+} */
+
+.footer .footer-social-media .container .footer-social .social{
+  cursor: pointer;
+  /* -webkit-margin-collapse: collapse; */
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in, .fa-youtube{
+  font-size: 22px;
+}
+
+.fa-facebook-f{
+  color: rgba(7, 107, 248, 0.877);
+} 
+
+.fa-twitter{
+  color: rgba(11, 168, 241, 0.945);
+} 
+
+.fa-instagram{
+  color: rgba(224, 26, 102, 0.705);
+}
+
+.fa-linkedin-in{
+  color: rgba(46, 178, 240, 0.836);
+}
+
+.fa-youtube{
+  color: rgba(247, 10, 10, 0.884);
+}
+
+
+
+
+@media (min-width: 1200px){
+
+  .footer-app {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 992px){
+
+  .footer-app {
+    max-width: 1200px;
+  }
+}
+/* @media screen and (min-width: 767px){ */
+
+@media screen and (min-width: 576px) and (max-width: 768px) { 
+   
+
+.Kontak-kami .box {
+  padding: 44px 24px;
+  display: inline-block;
+  width: 100%;
+  height: 15rem;  
+  margin-bottom: 26px;  
+  border-radius: 8px;
+  border-width: 1.5px;  
+  background-color: rgb(255, 255, 255); 
+  border-style: solid;
+  border-color: rgb(229, 230, 238);
+  border-image: initial;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  text-align: left;
+  /* padding-right: 20px;       */
+}
+
+  .footer .footer-app .menu .menu-item {
+    text-align: left;
+  }
+
+  .footer .footer-app .menu .menu-item a{
+    font-size: 14px;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.68);
+  }
+  .footer .menu-app{
+      position: relative;
+      transform: translateY(0px);
+      margin-top: 16px;
+      text-align: center;
+  }
+
+  .footer-app .menu-app .app_title{
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.96);
+    text-align: left;
+  }
+  
+  .icon-peta{  
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color:rgba(233, 238, 243, 0.514);
+    width: 45px;
+    height: 45px;
+  }
+  
+  .icon-peta .fa-map-marker-alt{
+    color: #00d450;
+    font-size: 20px;
+  }
+
+    
+  .kontak-heading {
+    margin-top: 4rem;
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 4rem;
+  }
+
+  .kontak-heading h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    opacity: .03;
+    font-weight: bold;
+    line-height: 0;
+  }
+
+  .kontak-heading h6 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 0;
+  }
+
+  .kontak-heading h6::before{
+    content: '';
+    margin-top: -1.6rem;
+    position: absolute;
+    width: 3rem;
+    height: 1.3px;
+    border-radius: .8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 212, 80);
+  } 
+
+  .footer .footer-social-media .container .footer-social{ 
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .footer .footer-social-media .container .footer-social .social{ 
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  
+  .footer .footer-social-media .container .footer-social .copyright{ 
+    text-align: center;
+    margin-top: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.44);
+  }
+
+}
+
+@media screen and (max-width: 575.98px) {
+  
+
+  .Kontak-kami .box {
+    padding: 44px 24px;
+    display: inline-block;
+    width: 100%;
+    height: 15rem;  
+    margin-bottom: 24px;  
+    border-radius: 8px;
+    border-width: 1.5px;  
+    background-color: rgb(255, 255, 255); 
+    border-style: solid;
+    border-color: rgb(229, 230, 238);
+    border-image: initial;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    text-align: left;
+    /* padding-right: 20px;       */
+  }
+  
+  
+  .lainnya .box {
+    padding: 44px 24px;
+    display: inline-block;
+    width: 100%;
+    height: 15rem;  
+    margin-bottom: 24px;  
+    border-radius: 8px;
+    border-width: 1.5px;  
+    background-color: rgb(255, 255, 255); 
+    border-style: solid;
+    border-color: rgb(229, 230, 238);
+    border-image: initial;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    text-align: left;
+    /* padding-right: 20px;       */
+  }
+  
+  .footer .footer-app .menu .menu-item {
+    text-align: left;
+  }
+
+  .footer .footer-app .menu .menu-item a{
+    font-size: 13px;
+    line-height: 2.23;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.68);
+  }
+  .footer .menu-app{
+      position: relative;
+      transform: translateY(0px);
+      margin-top: 14px;
+      text-align: center;
+  }
+
+  .footer-app .menu-app .app_title{
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.96);
+    text-align: left;
+  }
+  
+  .icon-peta{  
+    margin: 0 auto 14px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color:rgba(233, 238, 243, 0.514);
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icon-peta .fa-map-marker-alt{
+    color: #00d450;
+    font-size: 18px;
+  }
+
+    
+  .kontak-heading {
+    margin-top: 3.5rem;
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 3.5rem;
+  }
+
+  .kontak-heading h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5rem;
+    opacity: .02;
+    font-weight: bold;
+    line-height: 0;
+  }
+
+  .kontak-heading h6 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 0;
+  }
+
+  .kontak-heading h6::before{
+    content: '';
+    margin-top: -1.4rem;
+    position: absolute;
+    width: 2.7rem;
+    height: 1.1px;
+    border-radius: .7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 212, 80);
+  } 
+
+  .footer .footer-social-media .container .footer-social{ 
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .footer .footer-social-media .container .footer-social .social{ 
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  
+  .footer .footer-social-media .container .footer-social .copyright{ 
+    text-align: center;
+    margin-top: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.10;
+    letter-spacing: normal;
+    color: rgba(49, 53, 59, 0.44);
+  }
+
+}
+
+
